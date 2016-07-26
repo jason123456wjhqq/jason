@@ -29,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
 
     @ViewInject(R.id.main_activity_radiogroup)
     private RadioGroup main_activity_radiogroup;
+    ///
+    //
+    //
+    //
+    //
 
 
     @Override
