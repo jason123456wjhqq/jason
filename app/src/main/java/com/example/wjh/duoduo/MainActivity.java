@@ -83,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
         currentFragment = list.get(0);
         fragmentmanager = getSupportFragmentManager();
         fragmentmanager.beginTransaction().add(R.id.main_fragmentlaout, new HomeFragment()).commit();
