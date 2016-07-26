@@ -29,11 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     @ViewInject(R.id.main_activity_radiogroup)
     private RadioGroup main_activity_radiogroup;
-    ///
-    //
-    //
-    //
-    //
+
 
 
     @Override
@@ -66,10 +62,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
 
-//
-
-
-
     }
 
 
@@ -79,10 +71,6 @@ public class MainActivity extends AppCompatActivity {
         list.add(new BookFragment());
         list.add(new NewsFragment());
         list.add(new ManagerFragment());
-
-
-
-
 
         currentFragment = list.get(0);
         fragmentmanager = getSupportFragmentManager();
@@ -105,8 +93,6 @@ public class MainActivity extends AppCompatActivity {
         }
         currentFragment = to;
     }
-
-
 
 
 }

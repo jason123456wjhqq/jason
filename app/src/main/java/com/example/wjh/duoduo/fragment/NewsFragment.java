@@ -40,6 +40,8 @@ public class NewsFragment extends Fragment {
         initData();
         return view;
 
+
+
     }
 
     private void initData() {
