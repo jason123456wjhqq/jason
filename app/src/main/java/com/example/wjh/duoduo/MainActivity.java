@@ -72,8 +72,9 @@ public class MainActivity extends AppCompatActivity {
         list = new ArrayList<>();
         list.add(new HomeFragment());
         list.add(new BookFragment());
-        list.add(new ManagerFragment());
         list.add(new NewsFragment());
+        list.add(new ManagerFragment());
+
 
 
 

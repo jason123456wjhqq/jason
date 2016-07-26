@@ -12,10 +12,10 @@ import com.example.wjh.duoduo.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ManagerFragment extends Fragment {
+public class HeadLineFragment extends Fragment {
 
 
-    public ManagerFragment() {
+    public HeadLineFragment() {
         // Required empty public constructor
     }
 
@@ -24,9 +24,7 @@ public class ManagerFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_manager, container, false);
+        return inflater.inflate(R.layout.fragment_head_line, container, false);
     }
-
-
 
 }
