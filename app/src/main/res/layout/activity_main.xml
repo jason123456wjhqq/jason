@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wjh.duoduo.MainActivity">
+
+
+
+
+    <FrameLayout
+        android:id="@+id/main_fragmentlaout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_activity_radiogroup"
+        android:background="#878787"></FrameLayout>
+    <RadioGroup
+        android:id="@+id/main_activity_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <RadioButton
+            android:text="首页"
+            android:id="@+id/main_home_radiobutton"
+            android:checked="true"
+            style="@style/main_selector"
+            android:drawableTop="@drawable/main_home_selector"
+           />
+        <RadioButton
+            android:id="@+id/main_book_radiobutton"
+            android:text="书架" android:drawableTop="@drawable/mian_book_selector"
+            style="@style/main_selector"
+          />
+        <RadioButton
+            android:id="@+id/main_news_radiobutton"
+            android:text="资讯"
+            style="@style/main_selector"
+            android:drawableTop="@drawable/main_news_selector"
+            />
+        <RadioButton
+            android:id="@+id/main_manager_radiobutton"
+            android:text="管理"
+            android:drawableTop="@drawable/main_manager_selector"
+            style="@style/main_selector"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
