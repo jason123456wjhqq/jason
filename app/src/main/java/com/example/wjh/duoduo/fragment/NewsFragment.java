@@ -30,21 +30,17 @@ public class NewsFragment extends Fragment {
     public NewsFragment() {}
 
 
+
+
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
 
         View view =  inflater.inflate(R.layout.fragment_news, container, false);
         ViewUtils.inject(this,view);
-
-        initData();
+        initView();
         return view;
-
-
-
     }
-
-    private void initData() {
+    private void initView() {
         List<Fragment> news_fragment = new ArrayList<>();
         List<String> news_title = new ArrayList<>();
         news_title.add("头条");
@@ -62,13 +58,20 @@ public class NewsFragment extends Fragment {
         //预加载
 //        shop_viewPager.setOffscreenPageLimit(4);
 //        news_viewpager.setCurrentItem(2);
-
-
 //        和viewpager进行关联
         tab_layout.setupWithViewPager(news_viewpager);
         tab_layout.setTabMode(TabLayout.MODE_FIXED);
 
+
+
+
+
     }
+
+
+
+
+
 
 
 }

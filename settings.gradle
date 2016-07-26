@@ -1,1 +1,2 @@
-include 'SlidingLibrary', 'Vitamio'
+include 'app','SlidingLibrary', 'Vitamio'
+include ':PullToLibrary'

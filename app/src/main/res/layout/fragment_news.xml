@@ -34,9 +34,9 @@
 
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:background="#fff"
-        app:tabIndicatorColor="#ffffff"
-        app:tabSelectedTextColor="#00b"
-        app:tabTextColor="#00b"
+        app:tabIndicatorColor="#5fbe8e"
+        app:tabSelectedTextColor="#a4e1c3"
+        app:tabTextColor="#8b8b8b"
         app:tabMode="fixed"
 
         >

@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DuoDuo.iml" filepath="$PROJECT_DIR$/DuoDuo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PullToLibrary/PullToLibrary.iml" filepath="$PROJECT_DIR$/PullToLibrary/PullToLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingLibrary/SlidingLibrary.iml" filepath="$PROJECT_DIR$/SlidingLibrary/SlidingLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vitamio/Vitamio.iml" filepath="$PROJECT_DIR$/Vitamio/Vitamio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/tttt.iml" filepath="$PROJECT_DIR$/tttt.iml" />
     </modules>
   </component>

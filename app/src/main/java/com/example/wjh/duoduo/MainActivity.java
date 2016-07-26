@@ -26,11 +26,8 @@ public class MainActivity extends AppCompatActivity {
     private List<Fragment> list;
     private FragmentManager fragmentmanager;
     private Fragment currentFragment;
-
     @ViewInject(R.id.main_activity_radiogroup)
     private RadioGroup main_activity_radiogroup;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
     @OnRadioGroupCheckedChange(R.id.main_activity_radiogroup)
     public void radioGroupClick(RadioGroup group, int checkedId) {
 
-
         switch (checkedId) {
             case R.id.main_home_radiobutton:
                 switchFragment(currentFragment, list.get(0));
@@ -61,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
                 switchFragment(currentFragment,list.get(3));
                 break;
         }
-
     }
 
 
@@ -93,6 +88,4 @@ public class MainActivity extends AppCompatActivity {
         }
         currentFragment = to;
     }
-
-
 }
